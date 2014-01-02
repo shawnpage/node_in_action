@@ -1,0 +1,26 @@
+{
+  "logging": {
+    "application": {
+      "file": {
+        "timestamp": true,
+        "json": false,
+        "filename": "logs/app.log",
+        "maxfiles": 5,
+        "maxsize": 10485760,
+        "level": "info",
+        "handleExceptions": true
+      }
+    },
+    "test": {
+      "file": {
+        "timestamp": true,
+        "json": false,
+        "filename": "logs/test.log",
+        "maxfiles": 5,
+        "maxsize": 10485760,
+        "level": "info",
+        "handleExceptions": true
+      }
+    }
+  }
+}
